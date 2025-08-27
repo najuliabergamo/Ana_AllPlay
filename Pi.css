@@ -50,13 +50,43 @@
     cursor: pointer;
     box-shadow: 
         -3px 0 3px rgb(144, 150, 144),    
-         0 3px 3px rgb(153, 161, 153),    
-         3px 0 3px rgb(159, 167, 159);
+         0 3px 3px rgb(144, 150, 144),    
+         3px 0 3px rgb(144, 150, 144);
     transition: transform 0.2s ease-in-out;
 }
 
 .esporte:hover {
-    transform: scale(1.05);
+    transform: scale(1.10);
+    box-shadow: 0 0 10px rgb(6, 70, 6);
 }
+
+#containerBotao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#Botao{
+    background-color:#2BA848;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 350px;
+    margin-top:50px ;
+}
+
+#Botao:hover{
+     background-color:#127e2b;
+     transform:scale(1.05);
+}
+#Botao:active{
+    transform: scale(0.98);
+}
+
+
+
+
+
 
 
