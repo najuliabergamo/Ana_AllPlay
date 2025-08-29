@@ -48,6 +48,7 @@
     justify-content: center;
     text-align: center;
     cursor: pointer;
+    margin-top:10px;
     box-shadow: 
         -3px 0 3px rgb(144, 150, 144),    
          0 3px 3px rgb(144, 150, 144),    
@@ -57,7 +58,7 @@
 
 .esporte:hover {
     transform: scale(1.10);
-    box-shadow: 0 0 10px rgb(6, 70, 6);
+    box-shadow: 0 0 10px rgb(78, 209, 78);
 }
 
 #containerBotao{
@@ -77,11 +78,17 @@
 }
 
 #Botao:hover{
-     background-color:#127e2b;
+     background-color:#17722c;
      transform:scale(1.05);
 }
 #Botao:active{
     transform: scale(0.98);
+}
+
+.cardText{
+    margin-top:-5px;
+    font-size:18px;
+    
 }
 
 
